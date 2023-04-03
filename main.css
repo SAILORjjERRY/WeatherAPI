@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('bgg.jpg');
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 15px 15px;
+  }
+  
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(130, 247, 255, 0.671);
+    border-radius: 16px 16px 16px 16px;
+    border-top: 4px solid #fff564;
+    border-bottom: 4px solid #fff564;
+    
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 5px 5px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 5px 5px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.3);
+}
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location .city {
+    color: #ffdd00;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .location .date {
+    color: #FFF;
+    font-size: 20px;
+  }
+  
+  .current .temp {
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 5px 0px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .current .temp span {
+    font-weight: 500;
+  }
+  
+  .current .weather {
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .current .hi-low {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+.footer-section {
+  background-color: #000;
+  height: auto;
+  padding: 70px 0;
+  color: #fff;
+  position: relative;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.creator-container{
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.line {
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+  border: 1px solid black;
+  padding: 0;
+  margin-bottom: 16px;
+}
